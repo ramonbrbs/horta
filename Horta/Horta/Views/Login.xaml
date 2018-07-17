@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Horta.Views.Login"
+             BackgroundImage="bglogin.png">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Image Source="logo.png" Aspect="AspectFit" Margin="10,20,10,10" HeightRequest="180"  />
+            <StackLayout Spacing="2" Margin="0,25,0,0">
+                <StackLayout Orientation="Horizontal" BackgroundColor="#2CFFFFFF" Padding="0">
+                    <StackLayout BackgroundColor="#1FFFFFFF" Padding="8"><Image Source="login.png" VerticalOptions="CenterAndExpand"></Image></StackLayout>
+                    <Entry Placeholder="Usuário" PlaceholderColor="White" TextColor="White"></Entry>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#2CFFFFFF" Padding="0">
+                    <StackLayout BackgroundColor="#1FFFFFFF" Padding="8">
+                        <Image Source="lock.png" VerticalOptions="CenterAndExpand"></Image>
+                    </StackLayout>
+                    <Entry Placeholder="Senha" PlaceholderColor="White" TextColor="White"></Entry>
+                </StackLayout>
+                <Grid x:Name="Grd">
+                    <Image Source="btnentrar.png" Aspect="AspectFit" ></Image>
+                    <Button x:Name="Btn" BackgroundColor="Transparent" Margin="28" HorizontalOptions="FillAndExpand" Clicked="Entrar_Clicked" ></Button>
+                </Grid>
+                <Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="#C0FFFFFF" Text="Esqueceu sua senha?"></Label>
+
+                <Label Margin="0,10,0,0" HorizontalOptions="FillAndExpand" FontSize="Large" HorizontalTextAlignment="Center" TextColor="#D6FFFFFF" Text="CADASTRE-SE"></Label>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>
