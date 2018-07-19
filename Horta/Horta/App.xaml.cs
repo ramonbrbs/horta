@@ -10,9 +10,11 @@ namespace Horta
 	{
 		public App ()
 		{
-			InitializeComponent();
+		    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTMxOEAzMTM2MmUzMjJlMzBFQmpkSXFwQWpuMzhFQnl5VHpzNmlTZGsxMGhSVkROaFNCSTQ5ZklsQ3FNPQ==");
+            InitializeComponent();
+		    
 
-			MainPage = new Login();
+            MainPage = new Login();
 		}
 
 		protected override void OnStart ()

@@ -33,11 +33,10 @@ namespace Horta.Views
             {
                 MenuItems = new ObservableCollection<PrincipalMenuItem>(new[]
                 {
-                    new PrincipalMenuItem { Id = 0, Title = "Page 1" },
-                    new PrincipalMenuItem { Id = 1, Title = "Page 2" },
-                    new PrincipalMenuItem { Id = 2, Title = "Page 3" },
-                    new PrincipalMenuItem { Id = 3, Title = "Page 4" },
-                    new PrincipalMenuItem { Id = 4, Title = "Page 5" },
+                    new PrincipalMenuItem { Id = 0, Title = "Perfil" },
+                    new PrincipalMenuItem { Id = 1, Title = "Regar" },
+                    new PrincipalMenuItem { Id = 2, Title = "Ranking" },
+                    new PrincipalMenuItem { Id = 3, Title = "Sair" },
                 });
             }
             
