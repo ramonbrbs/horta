@@ -23,9 +23,13 @@ namespace Horta.Views
         public Lista ()
 		{
 			InitializeComponent ();
-		    plantas.Add(new Planta { Nome = "Hortelã", Imagem = "hortela.jpg", TempoRega = 6, UltimaRega = DateTime.Now.AddHours(-8) });
-		    plantas.Add(new Planta { Nome = "Menta", Imagem = "hortela.jpg", TempoRega = 12, UltimaRega = DateTime.Now.AddHours(-8) });
-		    plantas_ = plantas.ToList();
+		    plantas.Add(new Planta { Nome = "Hortelã da Borda Branca", Imagem = "hortela.jpg", TempoRega = 6, UltimaRega = DateTime.Now.AddHours(-8) });
+		    plantas.Add(new Planta { Nome = "Moringa", Imagem = "hortela.jpg", TempoRega = 12, UltimaRega = DateTime.Now.AddHours(-10) });
+		    plantas.Add(new Planta { Nome = "Pimenta-Preta", Imagem = "hortela.jpg", TempoRega = 9, UltimaRega = DateTime.Now.AddHours(-8) });
+		    plantas.Add(new Planta { Nome = "Erva-doce", Imagem = "hortela.jpg", TempoRega = 12, UltimaRega = DateTime.Now.AddHours(-15) });
+		    plantas.Add(new Planta { Nome = "Boldo-do-chile", Imagem = "hortela.jpg", TempoRega = 12, UltimaRega = DateTime.Now.AddHours(-20) });
+		    plantas.Add(new Planta { Nome = "Moringa", Imagem = "hortela.jpg", TempoRega = 12, UltimaRega = DateTime.Now.AddHours(-20) });
+            plantas_ = plantas.ToList();
             ListaPlanta.ItemsSource = plantas;
             popupLayout = new SfPopupLayout();
 
